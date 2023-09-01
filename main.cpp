@@ -60,7 +60,7 @@ void merge(int *arr, int s, int e){
 
 void mergesort(int*arr, int s, int e){
       //base case
-      //s ==e valid array
+      //s ==e single element
       //s>e  invalid array
     if(s>=e)
       return;
